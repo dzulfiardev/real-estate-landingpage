@@ -478,6 +478,9 @@ footer .icon a {
   html {
     overflow-x: hidden;
   }
+  .navbar {
+    width: 100%;
+  }
   .img-room-2 {
     grid-area: img-room-2;
   }

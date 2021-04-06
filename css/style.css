@@ -25,8 +25,8 @@ html {
   background-color: rgba(46, 46, 46, 0.9) !important;
   padding-left: 40px;
   z-index: 23;
-  width: 100%;
-  overflow-x: hidden;
+  width: 100% !important;
+  overflow-x: hidden !important;
 }
 
 .nav-link {
@@ -479,7 +479,7 @@ footer .icon a {
     overflow-x: hidden;
   }
   .navbar {
-    width: 100%;
+    width: 100% !important;
   }
   .img-room-2 {
     grid-area: img-room-2;
@@ -522,7 +522,7 @@ footer .icon a {
     grid-template-columns: 2fr 1fr;
     padding-left: 40px;
     z-index: 23;
-    width: 100%;
+    width: 100% !important;
   }
 
   .nav-link {

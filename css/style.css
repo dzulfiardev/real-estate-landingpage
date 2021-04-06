@@ -25,6 +25,8 @@ html {
   background-color: rgba(46, 46, 46, 0.9) !important;
   padding-left: 40px;
   z-index: 23;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 .nav-link {
@@ -473,7 +475,9 @@ footer .icon a {
       "img-room-2"
       "house-plan-2";
   }
-
+  html {
+    overflow-x: hidden;
+  }
   .img-room-2 {
     grid-area: img-room-2;
   }
@@ -486,6 +490,9 @@ footer .icon a {
 /* Dekstop Version */
 
 @media (min-width: 760px) {
+  html {
+    overflow-x: hidden;
+  }
   #nav.black {
     padding: 5px 0;
     background-color: rgba(46, 46, 46, 0.9) !important;
@@ -494,6 +501,8 @@ footer .icon a {
     padding-left: 40px;
     padding-right: 20px;
     grid-template-columns: 2fr 1fr;
+    width: 100%;
+    overflow-x: hidden;
   }
 
   .section-head {
@@ -510,6 +519,7 @@ footer .icon a {
     grid-template-columns: 2fr 1fr;
     padding-left: 40px;
     z-index: 23;
+    width: 100%;
   }
 
   .nav-link {
